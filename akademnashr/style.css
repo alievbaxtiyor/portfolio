@@ -50,13 +50,13 @@ body {
   font-size: 32px;
   line-height: 37.5px;
 }
-.navbar-nav{
-    margin: 10px ;
-    padding: 0;
-    width: 700px;
-    height: 39px;
+.navbar-nav {
+  margin: 10px;
+  padding: 0;
+  width: 700px;
+  height: 39px;
 }
-.navbar-nav a{
+.navbar-nav a {
   padding-right: 32px;
   font-size: 13px;
   letter-spacing: 1px;
@@ -66,7 +66,7 @@ body {
   color: black;
   line-height: 15.23px;
 }
-.btn{
+.btn {
   width: 155px;
   height: 39px;
   border-radius: 4px;
@@ -75,13 +75,14 @@ body {
   font-size: 13px;
   color: #fff;
   border: none;
-  background: #FF7500;
+  background: #ff7500;
   font-family: "Roboto";
   cursor: pointer;
 }
 /* End of styling of navbar */
+
 /* Start of styling banner */
-.banner .container{
+.banner .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -89,26 +90,25 @@ body {
   height: 488px;
   background: #252420;
   padding: 0;
-
 }
-.banner .container .banner-title{
+.banner .container .banner-title {
   width: 387px;
   height: 328px;
 }
-.banner-line{
+.banner-line {
   margin-bottom: 35px;
   width: 80px;
   height: 3px;
-  background: #FF7500;
+  background: #ff7500;
   border: none;
 }
-.banner-title h1{
+.banner-title h1 {
   margin-bottom: 35px;
   font-size: 40px;
   line-height: 48px;
   letter-spacing: 0.5px;
 }
-.banner-title p{
+.banner-title p {
   margin-bottom: 35px;
   font-weight: 400;
   font-size: 16px;
@@ -116,23 +116,124 @@ body {
   line-height: 24px;
   letter-spacing: 0.5px;
 }
-.banner .banner-img{
+.banner .banner-img {
   position: relative;
   width: 510px;
   height: 510px;
 }
-.banner .banner-img img{
+.banner .banner-img img {
   width: 510px;
   height: 510px;
   border-radius: 8px;
   position: absolute;
   top: 60px;
   right: 60px;
-  box-shadow: 20px 20px  rgba(255, 117, 0, 60%) ;
+  box-shadow: 20px 20px rgba(255, 117, 0, 60%);
 }
+/* End of styling banner */
 
+/* Start of styling reasons section */
+.reason{
+  padding-top: 1.4rem ;
+}
+.reason .container{
+  width: 100%;
+  height: 936px;
+  padding: 130px 150px 0px 150px;
+}
+.reason .title{
+  width: 435px;
+}
+.reason .title h1{
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 65px;
+  letter-spacing: 0.5px;
+  color: #000;
+}
+.reason .reason-line {
+  margin-bottom: 20px;
+  width: 80px;
+  height: 3px;
+  background: #ff7500;
+  border: none;
+}
+.reason .reason-boxes{
+  display: flex;
+  margin-top: 75px ;
+  justify-content: space-between;
+}
+.reason .reason-boxes .box{
+  width: 310px;
+  height: 265px;
+}
+.reason .reason-boxes .box img{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+.reason .reason-boxes .box h3{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.8px;
+  letter-spacing: 0.5px;
+  color: #000;
+  margin-bottom: 30px;
+}
+.reason .reason-boxes .box p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #000;
+}
+/* End of styling reasons */
 
+/* Start of styling sales section */
+.sales{
+  margin: 0;
+  padding: 0 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sales .container{
+  width: 1100px;
+  height: 419px;
+  border-radius: 12px;
+  background: #252420;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+.sales .container .title{
+  width: 440px;
+  height: 291px;
+}
+.sales .container .title h2{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+.sales .container .title p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.6px;
+  margin-bottom: 30px;
+}
+.sales .container .title p>span{
+  color: #FF7500;
+}
+.sales .sales-img{
+  width: 440px;
+  height: 440px;
+  margin-bottom: 150px;
+}
+/* End of styling reasons */
 
-
-
+/* Start of styling sales section */
 
