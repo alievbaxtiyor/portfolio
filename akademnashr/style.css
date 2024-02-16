@@ -57,7 +57,8 @@ body {
   height: 39px;
 }
 .navbar-nav a {
-  padding-right: 32px;
+  margin-right: 32px;
+  padding: 2px;
   font-size: 13px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -65,6 +66,11 @@ body {
   font-weight: 500;
   color: black;
   line-height: 15.23px;
+  transition: all 0.375s ease-in-out;
+}
+.navbar-nav a:hover{
+  border-bottom: 3px solid #ff7500;
+  border-right:  3px solid #ff7500;
 }
 .btn {
   width: 155px;
@@ -78,6 +84,10 @@ body {
   background: #ff7500;
   font-family: "Roboto";
   cursor: pointer;
+  transition: opacity 0.375s ;
+}
+.btn:hover{
+  opacity: 0.7;
 }
 /* End of styling of navbar */
 
@@ -133,18 +143,18 @@ body {
 /* End of styling banner */
 
 /* Start of styling reasons section */
-.reason{
-  padding-top: 1.4rem ;
+.reason {
+  padding-top: 1.4rem;
 }
-.reason .container{
+.reason .container {
   width: 100%;
-  height: 936px;
+  height: 700px;
   padding: 130px 150px 0px 150px;
 }
-.reason .title{
+.reason .title {
   width: 435px;
 }
-.reason .title h1{
+.reason .title h1 {
   font-weight: 700;
   font-size: 50px;
   line-height: 65px;
@@ -158,21 +168,27 @@ body {
   background: #ff7500;
   border: none;
 }
-.reason .reason-boxes{
+.reason .reason-boxes {
   display: flex;
-  margin-top: 75px ;
+  margin-top: 75px;
   justify-content: space-between;
 }
-.reason .reason-boxes .box{
+.reason .reason-boxes .box {
   width: 310px;
   height: 265px;
+  border-radius: 12px;
+  transition: all 0.5s ;
 }
-.reason .reason-boxes .box img{
+.reason .reason-boxes .box:hover{
+  transform: scale(1.2);
+  background: #f8f8f8;
+}
+.reason .reason-boxes .box img {
   width: 100px;
   height: 100px;
   margin-bottom: 30px;
 }
-.reason .reason-boxes .box h3{
+.reason .reason-boxes .box h3 {
   font-weight: 700;
   font-size: 24px;
   line-height: 28.8px;
@@ -180,7 +196,7 @@ body {
   color: #000;
   margin-bottom: 30px;
 }
-.reason .reason-boxes .box p{
+.reason .reason-boxes .box p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -190,14 +206,14 @@ body {
 /* End of styling reasons */
 
 /* Start of styling sales section */
-.sales{
-  margin: 0;
+.sales {
+  margin-top: 150px;
   padding: 0 150px;
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.sales .container{
+.sales .container {
   width: 1100px;
   height: 419px;
   border-radius: 12px;
@@ -206,29 +222,30 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 0;
+  margin-top: 100px;
 }
-.sales .container .title{
+.sales .container .title {
   width: 440px;
   height: 291px;
 }
-.sales .container .title h2{
+.sales .container .title h2 {
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
   letter-spacing: 0.5px;
   margin-bottom: 30px;
 }
-.sales .container .title p{
+.sales .container .title p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.6px;
   margin-bottom: 30px;
 }
-.sales .container .title p>span{
-  color: #FF7500;
+.sales .container .title p > span {
+  color: #ff7500;
 }
-.sales .sales-img{
+.sales .sales-img {
   width: 440px;
   height: 440px;
   margin-bottom: 150px;
@@ -236,4 +253,79 @@ body {
 /* End of styling reasons */
 
 /* Start of styling sales section */
+.footer {
+  width: 100%;
+  height: 509px;
+  padding: 70px 200px;
+  margin-top: 160px;
+  background: #f8f8f8;
+}
+.footer .footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.footer .footer-logo {
+  display: flex;
+  align-items: center;
+}
+.footer .footer-logo img {
+  width: 38px;
+  height: 59.18px;
+}
+.footer .footer-logo .first {
+  color: #252420;
+  font-weight: 700;
+  padding-left: 10px;
+  font-size: 32px;
+  line-height: 37.5px;
+}
+.footer .footer-logo .second {
+  color: #ff7500;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37.5px;
+}
+.footer .footer-icons img {
+  width: 24px;
+  height: 24px;
+  margin-left: 16px;
+  padding: 2px;
+  transition: all 0.375s ;
+}
+.footer .footer-icons img:hover{
+  border-bottom: 3px solid #ff7500;
+}
+.footer .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.footer-bottom ul li{
+  margin-bottom: 16px;
+}
+.footer-bottom a{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
+  letter-spacing: 0.5px;
+  color: #252420;
+  text-decoration: none;
+}
+/* End of styling sales section */
+
+@media only screen and (max-width: 800px) {
+  .navbar-nav a {
+    display: none;
+  }
+  .navigation{
+    display: block;
+    text-align: center;
+  }
+  
+}
+
+
+
 
