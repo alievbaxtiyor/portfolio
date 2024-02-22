@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  line-height: 1.4;
+  color: #fff;
+}
+/* Start styling of navbar */
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+.navbar {
+  background: #fff;
+  padding: 10px 0;
+  border-top: 0.3rem solid #ff7500;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation .logo {
+  display: flex;
+  align-items: center;
+  margin: 0 100px;
+}
+.navigation .logo img {
+  width: 38px;
+  height: 59.18px;
+}
+.navigation .logo .first {
+  color: #252420;
+  font-weight: 700;
+  padding-left: 10px;
+  font-size: 32px;
+  line-height: 37.5px;
+}
+.navigation .logo .second {
+  color: #ff7500;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37.5px;
+}
+.navbar-nav {
+  margin: 10px;
+  padding: 0;
+  width: 700px;
+  height: 39px;
+}
+.navbar-nav a {
+  margin-right: 32px;
+  padding: 2px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+  line-height: 15.23px;
+  transition: all 0.375s ease-in-out;
+}
+.navbar-nav a:hover {
+  border-bottom: 3px solid #ff7500;
+  border-right: 3px solid #ff7500;
+}
+.btn {
+  width: 155px;
+  height: 39px;
+  border-radius: 4px;
+  padding: 12px 24px;
+  font-weight: 500;
+  font-size: 13px;
+  color: #fff;
+  border: none;
+  background: #ff7500;
+  font-family: "Roboto";
+  cursor: pointer;
+  transition: opacity 0.375s;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+/* End of styling of navbar */
+
+/* Start of styling banner */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 488px;
+  background: #252420;
+  padding: 0;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-title {
+  width: 50%;
+  padding-left: 30px;
+}
+.banner-line {
+  margin-bottom: 35px;
+  width: 80px;
+  height: 3px;
+  background: #ff7500;
+  border: none;
+}
+.banner-title h1 {
+  margin-bottom: 35px;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+}
+.banner-title p {
+  margin-bottom: 35px;
+  font-weight: 400;
+  font-size: 16px;
+  height: 96px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.banner-img {
+  position: relative;
+  width: 50%;
+  height: 510px;
+}
+.banner .banner-img img {
+  width: 510px;
+  height: 510px;
+  border-radius: 8px;
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  box-shadow: 20px 20px rgba(255, 117, 0, 60%);
+}
+/* End of styling banner */
+
+/* Start of styling reasons section */
+.reason {
+  padding-top: 1.4rem;
+}
+.reason .container {
+  width: 100%;
+  height: 700px;
+  padding: 130px 150px 0px 150px;
+}
+.reason .title {
+  width: 435px;
+}
+.reason .title h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 65px;
+  letter-spacing: 0.5px;
+  color: #000;
+}
+.reason .reason-line {
+  margin-bottom: 20px;
+  width: 80px;
+  height: 3px;
+  background: #ff7500;
+  border: none;
+}
+.reason .reason-boxes {
+  display: flex;
+  margin-top: 75px;
+  justify-content: space-between;
+}
+.reason .reason-boxes .box {
+  width: 310px;
+  height: 265px;
+  border-radius: 12px;
+  transition: all 0.5s;
+}
+.reason .reason-boxes .box:hover {
+  transform: scale(1.2);
+  background: #f8f8f8;
+}
+.reason .reason-boxes .box img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+.reason .reason-boxes .box h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.8px;
+  letter-spacing: 0.5px;
+  color: #000;
+  margin-bottom: 30px;
+}
+.reason .reason-boxes .box p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #000;
+}
+/* End of styling reasons */
+
+/* Start of styling sales section */
+.sales {
+  margin-top: 150px;
+  padding: 0 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sales .container {
+  width: 1100px;
+  height: 419px;
+  border-radius: 12px;
+  background: #252420;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin-top: 100px;
+}
+.sales .container .title {
+  width: 440px;
+  height: 291px;
+}
+.sales .container .title h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+.sales .container .title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.6px;
+  margin-bottom: 30px;
+}
+.sales .container .title p > span {
+  color: #ff7500;
+}
+.sales .sales-img {
+  width: 440px;
+  height: 440px;
+  margin-bottom: 150px;
+}
+/* End of styling reasons */
+
+/* Start of styling sales section */
+.footer {
+  width: 100%;
+  height: 509px;
+  padding: 70px 200px;
+  margin-top: 160px;
+  background: #f8f8f8;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+.footer-logo img {
+  width: 38px;
+  height: 59.18px;
+}
+.footer-logo .first {
+  color: #252420;
+  font-weight: 700;
+  padding-left: 10px;
+  font-size: 32px;
+  line-height: 37.5px;
+}
+.footer-logo .second {
+  background-color: #ff7500;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37.5px;
+}
+.footer-icons img {
+  width: 24px;
+  height: 24px;
+  margin-left: 16px;
+  padding: 2px;
+  transition: all 0.375s;
+}
+.footer-icons img:hover {
+  border-bottom: 3px solid #ff7500;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.footer-bottom ul li {
+  margin-bottom: 16px;
+}
+.footer-bottom a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
+  letter-spacing: 0.5px;
+  color: #252420;
+  text-decoration: none;
+}
+
+/* End of styling sales section */
+
+@media only screen and (max-width: 800px) {
+  .navbar {
+    padding: 0;
+  }
+  .container {
+    width: 100%;
+    height: 30vh;
+    padding: 0;
+  }
+  .navigation {
+    display: block;
+    width: 100%;
+    height: 30vh;
+  }
+  .navigation .logo {
+    margin: 10px;
+    place-content: start;
+  }
+  .navbar-nav {
+    display: grid;
+    margin: 10px;
+    height: 200px;
+    place-content: center;
+    text-align: center;
+    gap: 10px;
+  }
+  .navbar-nav a {
+    margin: 0;
+  }
+}
