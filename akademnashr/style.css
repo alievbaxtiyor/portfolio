@@ -15,13 +15,15 @@ body {
 }
 /* Start styling of navbar */
 .container {
+  width: 100%;
   max-width: 100%;
-  margin: 0;
-  padding: 0 1.2rem;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
 }
 .navbar {
   background: #fff;
-  padding: 1.2rem;
+  padding: 10px 0;
   border-top: 0.3rem solid #ff7500;
 }
 .navigation {
@@ -92,18 +94,23 @@ body {
 /* End of styling of navbar */
 
 /* Start of styling banner */
-.banner .container {
+.banner {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 488px;
   background: #252420;
   padding: 0;
 }
-.banner .container .banner-title {
-  width: 387px;
-  height: 328px;
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-title {
+  width: 50%;
+  padding-left: 30px;
 }
 .banner-line {
   margin-bottom: 35px;
@@ -126,9 +133,9 @@ body {
   line-height: 24px;
   letter-spacing: 0.5px;
 }
-.banner .banner-img {
+.banner-img {
   position: relative;
-  width: 510px;
+  width: 50%;
   height: 510px;
 }
 .banner .banner-img img {
@@ -260,44 +267,44 @@ body {
   margin-top: 160px;
   background: #f8f8f8;
 }
-.footer .footer-top {
+.footer-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
 }
-.footer .footer-logo {
+.footer-logo {
   display: flex;
   align-items: center;
 }
-.footer .footer-logo img {
+.footer-logo img {
   width: 38px;
   height: 59.18px;
 }
-.footer .footer-logo .first {
+.footer-logo .first {
   color: #252420;
   font-weight: 700;
   padding-left: 10px;
   font-size: 32px;
   line-height: 37.5px;
 }
-.footer .footer-logo .second {
+.footer-logo .second {
   background-color: #ff7500;
   font-weight: 700;
   font-size: 32px;
   line-height: 37.5px;
 }
-.footer .footer-icons img {
+.footer-icons img {
   width: 24px;
   height: 24px;
   margin-left: 16px;
   padding: 2px;
   transition: all 0.375s;
 }
-.footer .footer-icons img:hover {
+.footer-icons img:hover {
   border-bottom: 3px solid #ff7500;
 }
-.footer .footer-bottom {
+.footer-bottom {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
