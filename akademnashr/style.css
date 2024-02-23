@@ -22,6 +22,7 @@ img {
   padding: 1.2rem;
   box-sizing: border-box;
 }
+
 /* Start header styling */
 header {
   height: 100vh;
@@ -89,8 +90,57 @@ span:last-of-type {
   border-radius: 4px;
   letter-spacing: 0.5px;
   transition: opacity 0.5s ease;
-  margin: 0 10px;
 }
 .btn:hover {
   opacity: 0.7;
 }
+
+/* Start banner styling */
+.banner{
+  padding: 1.2rem;
+  background-color: #252420;
+}
+.banner-box{
+  display: flex;
+  align-items: center;
+}
+.title{
+  padding: 0 1.2rem;
+}
+.line{
+  width: 80px;
+  height: 3px;
+  background: #ff7500;
+  border: none;
+  margin-bottom: 40px ;
+}
+.title h1{
+  font-family: var(--Roboto);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  width: 75%;
+  margin: 40px 0;
+}
+.title p{
+  font-family: var(--Roboto);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+  width: 65%;
+  margin: 40px 0;
+}
+.img{
+  position: relative;
+}
+.img-position{
+  position: absolute;
+  
+}
+.img img{
+  width: 510px;
+  height: 510px;
+}
+
