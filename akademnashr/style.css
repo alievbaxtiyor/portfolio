@@ -8,6 +8,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   line-height: 1.4;
   color: #fff;
@@ -96,34 +99,34 @@ span:last-of-type {
 }
 
 /* Start banner styling */
-.banner{
+.banner {
   padding: 1.2rem;
   background-color: #252420;
 }
-.banner-box{
+.banner-box {
   display: flex;
   align-items: center;
 }
-.title{
+.title {
   padding: 0 1.2rem;
 }
-.line{
+.line {
   width: 80px;
   height: 3px;
   background: #ff7500;
   border: none;
-  margin-bottom: 40px ;
+  margin-bottom: 40px;
 }
-.title h1{
+.title h1 {
   font-family: var(--Roboto);
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
   letter-spacing: 0.5px;
-  width: 75%;
+  width: 70%;
   margin: 40px 0;
 }
-.title p{
+.title p {
   font-family: var(--Roboto);
   font-weight: 400;
   font-size: 16px;
@@ -132,15 +135,69 @@ span:last-of-type {
   width: 65%;
   margin: 40px 0;
 }
-.img{
-  position: relative;
-}
-.img-position{
-  position: absolute;
-  
-}
-.img img{
+.img img {
   width: 510px;
   height: 510px;
+  transform: translateY(80px);
+  border-radius: 8px;
+  box-shadow: 20px 20px rgba(255, 117, 0, 60%);
 }
+/* Start reason styling */
+.hero {
+  width: 100%;
+  padding: 1.2rem;
+}
+.reasons {
+  margin: 100px auto;
+}
+.reasons .title h1 {
+  font-family: var(--Roboto);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 86px;
+  letter-spacing: 0.5px;
+  width: 50%;
+  color: #000;
+}
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  width: 100%;
+}
+.box{
+  width: 33.3%;
+  padding: 1.2rem;
+  border-radius: 8px;
+  transition: all 0.375s ease;
+}
+.box:hover{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 
+}
+.box img {
+  width: 100px;
+  height: 100px;
+}
+.box h3 {
+  font-family: var(--Roboto);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: #000;
+  margin: 20px 0;
+}
+.box p {
+  font-family: var(--Roboto);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #000;
+  width: 80%;
+}
+.box2{
+  margin: 0 30px;
+}
